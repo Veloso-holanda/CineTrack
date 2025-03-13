@@ -3,7 +3,7 @@ require('dotenv').config();
 
 
 const express = require('express');
-const axios = require('axios');
+const axios = require('../node_modules/axios/index.d.cts');
 
 const app = express();
 const PORT = 5000;
